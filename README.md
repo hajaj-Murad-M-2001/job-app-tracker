@@ -16,7 +16,7 @@ Laravel 13, PHP 8.4+, MySQL, Sanctum, Pest
 
 ## Installation
 ```bash
-git clone <repo-url>
+git clone https://github.com/hajaj-Murad-M-2001/job-app-tracker.git
 cd job-app-tracker
 composer install
 cp .env.example .env
