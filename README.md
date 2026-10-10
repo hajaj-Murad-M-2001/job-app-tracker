@@ -21,7 +21,6 @@ git clone https://github.com/hajaj-Murad-M-2001/job-app-tracker.git
 cd job-app-tracker
 composer install
 cp .env.example .env
-cp .env.example .env
 php artisan key:generate
 # configure your database in .env
 php artisan migrate --seed
