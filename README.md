@@ -1,4 +1,5 @@
 # Job Application Tracker API
+![Tests](https://github.com/hajaj-Murad-M-2001/job-app-tracker/actions/workflows/tests.yml/badge.svg)
 
 REST API built with Laravel to track job applications through hiring stages.
 
