@@ -21,6 +21,7 @@ git clone https://github.com/hajaj-Murad-M-2001/job-app-tracker.git
 cd job-app-tracker
 composer install
 cp .env.example .env
+cp .env.example .env
 php artisan key:generate
 # configure your database in .env
 php artisan migrate --seed
@@ -51,4 +52,9 @@ php artisan test
 ## Database Schema
 
 ![ERD](docs/erd.png)
+
+
+## API Documentation
+
+A ready-to-import collection is available at [docs/postman_collection.json](docs/postman_collection.json) (works with Postman, Insomnia, or Thunder Client). Set the `token` variable after logging in.
 
