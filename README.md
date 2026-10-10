@@ -47,3 +47,8 @@ All requests must send `Accept: application/json`. Protected routes need `Author
 ```bash
 php artisan test
 ```
+
+## Database Schema
+
+![ERD](docs/erd.png)
+
